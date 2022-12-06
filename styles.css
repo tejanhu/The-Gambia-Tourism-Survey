@@ -104,6 +104,10 @@ input, button, select, textarea{
   border-bottom: none;
 }
 
+#dropdown{
+  width: 100%;
+}
+
 @media (min-width: 480px){
   form{
     padding: 2.5rem;
@@ -148,6 +152,7 @@ input, button, select, textarea{
 
 #feedback{
   min-height: 120px;
+  width: 100%;
 }
 
 #submit{
@@ -163,7 +168,6 @@ input, button, select, textarea{
   border-left:none;
   border-right: none;
   border-bottom: none; 
-   min-width: 300px;
 }
 
 
