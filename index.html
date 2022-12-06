@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang = "en">
+  <head> 
+    <title>Tourism in The Gambia</title>
+    <meta charset="utf-8"/>
+  <link rel="stylesheet" href="styles.css"/>
+  </head>
+  <body>
+    <h1 id="title">Tourism in The Gambia Survey Form</h1>
+    <p id="description">This is a fictitious survey collecting data about tourism in The Gambia.</p>
+    <form id="survey-form">
+        <fieldset>
+            <label for="name" id="name-label">Name
+                <input type="text" id="name" placeholder="Enter Your Name" class="form-control" required/>
+            </label>
+            <label for="email" id="email-label">Email
+                <input type="email" id="email" placeholder="Enter Your Email" class="form-control" required/>
+            </label>
+            <label for="number" id="number-label">Number
+                <input type="tel" id="number" min="11" max="16" class="form-control" placeholder="Enter Your Number"/>
+            </label>
+            <label for="dropdown" id="dropdown-label">What would you like to do?
+                <select id="dropdown">
+                <option value="">Select Tourism</option>
+                <option value="1">Boat ride along the River Gambia</option>
+                <option value="2">Camel Riding</option>
+                <option value="3">Horse Riding</option>
+                <option value="4">Quad Biking</option>
+                <option value="5">Visit a beach</option>
+                <option value="5">Visit Makasutu Culture Forest</option>
+                </select>
+            </label>
+            <label>
+                <p id="recommendQ">Would you recommend The Gambia for Tourism?</p>
+            </label>
+            <label for="gambiayesfortourism">
+                <input type="radio" id="gambiayesfortourism" name="gambiafortoursim"/>Most Certainly
+            </label>
+            <label for="gambianmaybefortourism">
+                <input type="radio" id="gambiamaybefortourism" name="gambiafortoursim"/>Maybe
+            </label>
+            <label for="gambianotfortourism">
+                <input type="radio" id="gambianotfortourism" name="gambiafortoursim"/>No
+            </label>
+            <label id="question">What types of activities would you like to be introduced? (Check all that apply)</br>
+              <input type="checkbox" value="1"/> Archery</br>
+               <input type="checkbox" value="2"/> Treasure Hunt</br>
+                <input type="checkbox" value="3"/> Immersion Retreats/Camping</br>
+                 <input type="checkbox" value="4"/> Go karting</br>
+                 <input type="checkbox" value="5"/> Jiu Jitsu
+            </label>
+            <label for="feedback" id="feedback-label">Give us your thoughts
+                <textarea id="feedback" name="feedback" rows="3" cols="30" placeholder="I love travelling to The Gambia."></textarea></label>
+           <input type="submit" value="Submit" id="submit"/>
+        </fieldset>
+    </form>
+  </body>
+</html>
